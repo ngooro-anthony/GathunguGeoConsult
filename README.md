@@ -1,1 +1,1 @@
-# GathunguGeoConsult
+// Placeholder content for README.md
