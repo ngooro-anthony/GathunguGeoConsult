@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GathunguGeoConsult</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; margin: 0; padding: 0; }
+    header { background: #2c3e50; color: white; padding: 1rem; text-align: center; }
+    nav { background: #34495e; padding: 1rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; }
+    section { padding: 2rem; }
+    .content { max-width: 800px; margin: auto; }
+    .item { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1); margin-bottom: 1rem; display: flex; gap: 1rem; }
+    .item img { max-width: 150px; border-radius: 8px; }
+    footer { background: #2c3e50; color: white; text-align: center; padding: 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GathunguGeoConsult</h1>
+    <p>Professional GIS & Geomatics Services</p>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="faq.html">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="content">
+    <h2>Welcome to GathunguGeoConsult</h2>
+    <p>We provide professional surveying, GIS, and geomatics solutions. Explore our services, see pricing ranges, and learn more in our FAQ section.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Land_surveyor.jpg" alt="Surveyor using equipment" style="width:100%; border-radius: 8px; margin-top:1rem;">
+  </section>
+
+  <section id="contact" class="content">
+    <h2>Request a Service</h2>
+    <form>
+      <input type="text" placeholder="Enter service you need" required /><br>
+      <input type="tel" placeholder="Enter your phone number" required /><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GathunguGeoConsult. All rights reserved.</p>
+  </footer>
+</body>
+</html>
 // Placeholder content for GathunguGeoConsult.csproj
